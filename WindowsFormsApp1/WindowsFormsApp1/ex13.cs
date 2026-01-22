@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _524K0034_LamGiaVu_Lab1
+{
+    public partial class ex13 : Form
+    {
+        public ex13()
+        {
+            InitializeComponent();
+            TabPage tabPage1 = new TabPage("Tab 1");
+            TabPage tabPage2 = new TabPage("Tab 2");
+            Label label1 = new Label() { Text = "Content of Tab 1", Location = new Point(20, 20) };
+            Label label2 = new Label() { Text = "Content of Tab 2", Location = new Point(20, 20) };
+            tabPage1.Controls.Add(label1);
+            tabPage2.Controls.Add(label2);
+            tabControl1.TabPages.Add(tabPage1);
+            tabControl1.TabPages.Add(tabPage2);
+        }
+    }
+}
