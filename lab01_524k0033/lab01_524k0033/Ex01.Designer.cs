@@ -1,6 +1,6 @@
 ﻿namespace lab01_524k0033
 {
-    partial class Ex1
+    partial class Ex01
     {
         /// <summary>
         /// Required designer variable.

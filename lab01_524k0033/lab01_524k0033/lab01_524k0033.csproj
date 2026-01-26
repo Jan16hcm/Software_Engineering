@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ex01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex01.Designer.cs">
+      <DependentUpon>Ex01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex06.Designer.cs">
+      <DependentUpon>Ex06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex08.Designer.cs">
+      <DependentUpon>Ex08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex07.Designer.cs">
+      <DependentUpon>Ex07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex09.Designer.cs">
+      <DependentUpon>Ex09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex10.Designer.cs">
+      <DependentUpon>Ex10.cs</DependentUpon>
+    </Compile>
     <Compile Include="ex11.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +94,136 @@
     <Compile Include="ex12.Designer.cs">
       <DependentUpon>ex12.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex02.Designer.cs">
+      <DependentUpon>Ex02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex03.Designer.cs">
+      <DependentUpon>Ex03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex04.Designer.cs">
+      <DependentUpon>Ex04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex05.Designer.cs">
+      <DependentUpon>Ex05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex13.Designer.cs">
+      <DependentUpon>ex13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex14.Designer.cs">
+      <DependentUpon>ex14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex15.Designer.cs">
+      <DependentUpon>ex15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex16.Designer.cs">
+      <DependentUpon>ex16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex17.Designer.cs">
+      <DependentUpon>ex17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex18.Designer.cs">
+      <DependentUpon>ex18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex19.Designer.cs">
+      <DependentUpon>ex19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ex20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ex20.Designer.cs">
+      <DependentUpon>ex20.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ex01.resx">
+      <DependentUpon>Ex01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex06.resx">
+      <DependentUpon>Ex06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex08.resx">
+      <DependentUpon>Ex08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex07.resx">
+      <DependentUpon>Ex07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex09.resx">
+      <DependentUpon>Ex09.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ex11.resx">
       <DependentUpon>ex11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ex12.resx">
       <DependentUpon>ex12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex02.resx">
+      <DependentUpon>Ex02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex03.resx">
+      <DependentUpon>Ex03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex04.resx">
+      <DependentUpon>Ex04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex05.resx">
+      <DependentUpon>Ex05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex13.resx">
+      <DependentUpon>ex13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex14.resx">
+      <DependentUpon>ex14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex15.resx">
+      <DependentUpon>ex15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex16.resx">
+      <DependentUpon>ex16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex17.resx">
+      <DependentUpon>ex17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex18.resx">
+      <DependentUpon>ex18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex19.resx">
+      <DependentUpon>ex19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ex20.resx">
+      <DependentUpon>ex20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

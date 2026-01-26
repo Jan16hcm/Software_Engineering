@@ -16,7 +16,7 @@ namespace lab01_524k0033
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ex12());
+            Application.Run(new ex20());
         }
     }
 }

@@ -15,5 +15,10 @@ namespace lab01_524k0033
             button1.Width = button1.Width + 15;
             button1.Text = "Button Clicked!";
         }
+
+        private void Ex2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

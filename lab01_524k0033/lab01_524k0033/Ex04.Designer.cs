@@ -1,6 +1,6 @@
 ﻿namespace lab01_524k0033
 {
-    partial class Ex4
+    partial class Ex04
     {
         /// <summary>
         /// Required designer variable.
@@ -101,7 +101,7 @@
             this.resultLabel.TabIndex = 6;
             this.resultLabel.Text = "Result";
             // 
-            // Ex4
+            // Ex04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,8 +113,8 @@
             this.Controls.Add(this.plusButton);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Ex4";
-            this.Text = "Ex4";
+            this.Name = "Ex04";
+            this.Text = "Ex04";
             this.ResumeLayout(false);
             this.PerformLayout();
 

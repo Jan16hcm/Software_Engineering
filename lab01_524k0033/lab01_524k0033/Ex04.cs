@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace lab01_524k0033
 {
-    public partial class Ex4 : Form
+    public partial class Ex04 : Form
     {
         double input1;
         double input2;
         
-        public Ex4()
+        public Ex04()
         {
             InitializeComponent();
         }
